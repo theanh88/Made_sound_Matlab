@@ -2,10 +2,10 @@ function Y=kspluck(f,length, excitation, A, B, p)
 %Code taken from https://www.ee.columbia.edu/~ronw/dsp/#synthsounds
 %Karplus-Strong model with additional paremeters
 %   ks(f,length) 
-%   f=frequency
-%   length=time (seconds)
+%   f = frequency
+%   length = time (seconds)
 %   fs = sampling freqency
-%   excitation=string excitation signal
+%   excitation = string excitation signal
 %   B = numerator coefficients of loop filter
 %   A = denominator coefficients of loop filter
 %   p = pluck position along waveguide (0 < p < 1 - fraction of waveguide length)
